@@ -6,18 +6,10 @@ public class Class1
 {
 	public Class1()
 	{
-        using System;
-
-class Program
-    {
-        static void Main(string[] args)
-        {
-            // Generate a random number between 1 and 10
+            // To generate a random number between 1 and 10
             Random random = new Random();
+		
             int secretNumber = random.Next(1, 11); // Generates a number between 1 and 10
-
-            // Display the secret number for testing purposes
-            Console.WriteLine("Secret Number (for testing): " + secretNumber);
 
             int attempts = 4;
             bool isGuessedCorrectly = false;
@@ -40,13 +32,12 @@ class Program
                 }
             }
 
-            // If the user didn't guess the number within the attempts, display "You lost"
             if (!isGuessedCorrectly)
             {
                 Console.WriteLine("You lost.");
             }
-        }
-    }
+ 	    Console.ReadKey();
+	}
+}
 
-}
-}
+
