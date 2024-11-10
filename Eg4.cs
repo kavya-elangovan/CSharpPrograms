@@ -26,5 +26,6 @@ public class Class1
         }
 
         Console.WriteLine("Unique numbers entered: " + string.Join(", ", numbers));
+	Console.ReadKey();
     }
 }
