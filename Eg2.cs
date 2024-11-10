@@ -17,7 +17,7 @@ public class Class1
         string reversedName = new string(nameArray);
 
         Console.WriteLine("Reversed name: " + reversedName);
-    
+        Console.ReadKey();
 }
 
 }
