@@ -20,5 +20,6 @@ public class Class1
         }
 
         Console.WriteLine("Number of vowels: " + vowelCount);
+	Console.ReadKey();
     }
 }
