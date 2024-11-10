@@ -27,5 +27,6 @@ public class Class1
 
         numbers.Sort();
         Console.WriteLine("Sorted numbers: " + string.Join(", ", numbers));
+	Console.ReadKey();
     }
 }
