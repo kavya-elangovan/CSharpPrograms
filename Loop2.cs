@@ -30,5 +30,6 @@ public class Class1
         }
 
         Console.WriteLine("The sum of all entered numbers is: " + sum);
+	Console.ReadKey();
     }
 }
