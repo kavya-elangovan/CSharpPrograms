@@ -43,6 +43,6 @@ public class Class1
             {
                 Console.WriteLine($"{names[0]}, {names[1]} and {names.Count - 2} others like your post.");
             }
-        
+            Console.ReadKey();
 }
 }
