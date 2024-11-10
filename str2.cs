@@ -19,5 +19,6 @@ public class Class1
         bool hasDuplicates = numbers.Count != numbers.Distinct().Count();
 
         Console.WriteLine(hasDuplicates ? "Duplicate" : "No Duplicate");
+	Console.ReadKey();
     }
 }
