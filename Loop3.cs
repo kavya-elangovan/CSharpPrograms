@@ -24,6 +24,6 @@ public class Class1
         {
             Console.WriteLine("Please enter a valid non-negative integer.");
         }
-
+	Console.ReadKey();
     }
 }
