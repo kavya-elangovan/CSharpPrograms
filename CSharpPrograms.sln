@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpPrograms", "CSharpPrograms\CSharpPrograms.csproj", "{34BFA8F3-4376-41C0-9969-EA04B046BA78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Loops", "Loops", "{07D07D29-B657-4073-AB72-7FA7099808FA}"
+	ProjectSection(SolutionItems) = preProject
+		Loop1.cs = Loop1.cs
+		Loop2.cs = Loop2.cs
+		Loop3.cs = Loop3.cs
+		Loop4.cs = Loop4.cs
+		Loop5.cs = Loop5.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ArraysAndLists", "ArraysAndLists", "{27F9E224-7853-46AF-9099-E23FFF1AEFEE}"
+	ProjectSection(SolutionItems) = preProject
+		Eg1.cs = Eg1.cs
+		Eg2.cs = Eg2.cs
+		Eg3.cs = Eg3.cs
+		Eg4.cs = Eg4.cs
+		Eg5.cs = Eg5.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strings", "Strings", "{F165CDF8-5AFA-432E-8AAE-9C4B8FE60A35}"
+	ProjectSection(SolutionItems) = preProject
+		str1.cs = str1.cs
+		str2.cs = str2.cs
+		str3.cs = str3.cs
+		str4.cs = str4.cs
+		str5.cs = str5.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{1FF8DB7C-BA59-46C0-8EBD-A139F2213722}"
+	ProjectSection(SolutionItems) = preProject
+		file1.cs = file1.cs
+		file2.cs = file2.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2C135838-C7CB-433B-ACD5-D900FD66CA04}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34BFA8F3-4376-41C0-9969-EA04B046BA78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34BFA8F3-4376-41C0-9969-EA04B046BA78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34BFA8F3-4376-41C0-9969-EA04B046BA78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34BFA8F3-4376-41C0-9969-EA04B046BA78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7169B48-CCC2-4BDC-A390-A9C9B92A96FB}
+	EndGlobalSection
+EndGlobal
