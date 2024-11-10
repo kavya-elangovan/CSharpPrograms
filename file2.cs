@@ -23,5 +23,6 @@ public class Class1
         {
             Console.WriteLine("Error: " + ex.Message);
         }
+	Console.ReadKey();
     }
 }
