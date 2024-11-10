@@ -11,7 +11,7 @@ public class Class1
         Console.Write("Enter your name: ");
         string name = Console.ReadLine();
 
-        // Convert name to a char array, reverse it, and create a new string from the reversed array
+        // Converting name to a char array, reversing it and creating a new string from the reversed array.
         char[] nameArray = name.ToCharArray();
         Array.Reverse(nameArray);
         string reversedName = new string(nameArray);
