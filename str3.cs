@@ -30,5 +30,6 @@ public class Class1
         {
             Console.WriteLine("Invalid Time");
         }
+	Console.ReadKey();
     }
 }
