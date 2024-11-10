@@ -18,5 +18,6 @@ public class Class1
         var pascalCase = string.Join("", words.Select(w => CultureInfo.CurrentCulture.TextInfo.ToTitleCase(w)));
 
         Console.WriteLine("PascalCase: " + pascalCase);
+	Console.ReadKey();
     }
 }
