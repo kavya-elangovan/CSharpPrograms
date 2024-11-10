@@ -25,5 +25,6 @@ public class Class1
         }
 
         Console.WriteLine(isConsecutive ? "Consecutive" : "Not Consecutive");
+	Console.ReadKey();
     }
 }
