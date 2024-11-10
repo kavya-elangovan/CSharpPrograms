@@ -20,8 +20,8 @@ public class Class1
 
             // Display the maximum number
             Console.WriteLine("The maximum number is: " + maxNumber);
+	    Console.ReadKey();
         }
-    }
+}
 
-}
-}
+
